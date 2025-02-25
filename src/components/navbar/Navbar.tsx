@@ -9,13 +9,13 @@ function Navbar() {
             
                 <div className="container flex justify-between text-lg">
                 
-                
+               <Link to='/home'> 
                 <img 
                             src="https://ik.imagekit.io/22g34n0mo/produtos_farmacia/logo.png?updatedAt=1740485357284" 
                             alt="Imagem da Página Home" 
                             width="200px"
                         />
-               
+               </Link>
 
 <div className="relative flex items-center justify-center w-2/5 text-black">
 						<form 
@@ -38,12 +38,12 @@ function Navbar() {
 						</form>
 					</div>        
 
-                    <div className='flex gap-4'>
-                        Postagens
-                        Temas
-                        Cadastrar tema
-                        Perfil
-                        Sair
+                    <div className='flex gap-8 place-items-center '  >
+                        Produtos
+                        <Link to="/categorias" className='hover:underline'>Categorias</Link>
+                        <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categoria</Link>
+                        
+                        
                     </div>
                 </div>
             </div>

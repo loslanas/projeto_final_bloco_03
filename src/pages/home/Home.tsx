@@ -9,21 +9,21 @@ function Home() {
                             Seja Bem Vinde!
                         </h2>
                         <p className='text-xl'>
-                            Expresse aqui seus pensamentos e opniões
+                            Aqui Você Encontra Medicamentos e Cosméticos
                         </p>
 
                         <div className="flex justify-around gap-4">
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                Nova Postagem
+                                Cadastrar Novo Produto
                             </div>
                         </div>
                     </div>
 
                     <div className="flex justify-center ">
                         <img
-                            src="https://i.imgur.com/fyfri1v.png"
+                            src="https://ik.imagekit.io/22g34n0mo/produtos_farmacia/home.png?updatedAt=1740485357510"
                             alt="Imagem Página Home"
                             className='w-2/3'
                         />
