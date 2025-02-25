@@ -39,7 +39,7 @@ function Navbar() {
 					</div>        
 
                     <div className='flex gap-8 place-items-center '  >
-                        <Link to='/'>Produtos</Link>
+                    <Link to="/produtos"className="hover:underline">Produtos</Link>
                         <Link to="/categorias" className='hover:underline'>Categorias</Link>
                         <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                         

@@ -90,19 +90,19 @@ function FormCategoria() {
 
             <form className="w-1/2 flex flex-col gap-4" onSubmit={gerarNovoCategoria}>
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="nome">Descrição do Categoria</label>
+                    <label htmlFor="nome" className="">Descrição do Categoria</label>
                     <input
                         type="text"
                         placeholder="Descreva aqui seu categoria"
                         name='nome'
-                        className="border-2 border-slate-700 rounded p-2"
+                        className="border-2 border-slate-700 bg-amber-50 rounded p-2"
                         value={categoria.nome}
                         onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
                     />
                 </div>
                 <button
                     className="rounded text-slate-100 bg-indigo-400 
-                               hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
+                               hover:bg-red-800 w-1/2 py-2 mx-auto flex justify-center"
                     type="submit">
                     {isLoading ?
                         <RotatingLines
